@@ -163,10 +163,6 @@ Key CSS variables in `styles.css`:
 - **XSS Prevention**: No dynamic HTML injection
 - **Content Security**: Proper meta tags and safe practices
 
-## 📝 License
-
-This project is created for the HNG Internship Stage 0 task. Feel free to use it as a reference or starting point for your own profile cards.
-
 ## 🤝 Contributing
 
 This is a learning project for HNG Internship, but suggestions and improvements are welcome!
