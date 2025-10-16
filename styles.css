@@ -225,24 +225,9 @@ main {
   transform: scale(1.1);
 }
 
-/* Alternative: CSS Background approach */
-.social-link.twitter::before {
-  content: "";
-  width: 24px;
-  height: 24px;
-  background-image: url("/images/x-logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 0.75rem;
-}
-.twitter:hover {
-  border-color: #1da1f2;
-}
+.github:hover,
+.twitter:hover,
 .linkedin:hover {
-  border-color: #0077b5;
-}
-.github:hover {
   border-color: #333;
 }
 
