@@ -213,6 +213,29 @@ main {
   flex-shrink: 0;
 }
 
+.social-icon-svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+/* Make SVG inherit parent color */
+.social-link:hover .social-icon-svg {
+  transform: scale(1.1);
+}
+
+/* Alternative: CSS Background approach */
+.social-link.twitter::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("/images/x-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 0.75rem;
+}
 .twitter:hover {
   border-color: #1da1f2;
 }

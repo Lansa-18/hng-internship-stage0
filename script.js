@@ -32,7 +32,6 @@
    * Initializes the time display and sets up periodic updates
    */
   function initializeTimeDisplay() {
-    // Set initial time
     updateCurrentTime();
 
     // Update time every second (1000ms)
