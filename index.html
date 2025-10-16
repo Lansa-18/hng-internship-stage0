@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - HNG Internship Stage 0</title>
+    <meta
+      name="description"
+      content="A responsive and accessible profile card component"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <header class="profile-header">
+          <figure class="profile-avatar">
+            <img
+              src="/images/lansa-headshot.jpg"
+              alt="Profile picture of Mapelujo Abdulkareem"
+              data-testid="test-user-avatar"
+              class="avatar-image"
+            />
+          </figure>
+          <div class="profile-info">
+            <h1 data-testid="test-user-name" class="user-name">Mapelujo Abdulkareem</h1>
+            <p data-testid="test-user-bio" class="user-bio">
+              I build speed-focused interfaces and applications that retain
+              users with Next.js and TypeScript. I create scalable solutions
+              through clean code resulting in a seamless experiences. Let's
+              connect!
+            </p>
+            <div class="current-time">
+              <span class="time-label">Current time (ms):</span>
+              <span
+                data-testid="test-user-time"
+                class="user-time"
+                id="currentTime"
+              ></span>
+            </div>
+          </div>
+        </header>
+
+        <nav class="social-section">
+          <h2 class="section-title">Connect with me</h2>
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <a
+                href="https://x.com/Lansa_18"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                class="social-link twitter"
+                aria-label="Follow Lansa on X"
+              >
+                <span class="social-icon">🐦</span>
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/lancer18/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                class="social-link linkedin"
+                aria-label="Connect with Mapelujo Abdulkareem on LinkedIn"
+              >
+                <span class="social-icon">💼</span>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Lansa-18"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                class="social-link github"
+                aria-label="View Lansa's projects on GitHub"
+              >
+                <span class="social-icon">💻</span>
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="hobbies-section">
+          <h2 class="section-title">Hobbies & Interests</h2>
+          <ul data-testid="test-user-hobbies" class="hobbies-list">
+            <li>🎬 Watching animes</li>
+            <li>📚 Reading mangas.</li>
+            <li>🎮 Playing video games</li>
+            <li>💪 Working out</li>
+          </ul>
+        </section>
+
+        <section class="dislikes-section">
+          <h2 class="section-title">Things I Don't Enjoy</h2>
+          <ul data-testid="test-user-dislikes" class="dislikes-list">
+            <li>🐛 Debugging legacy code without documentation</li>
+            <li>☔ Rainy weather and cloudy days</li>
+            <li>🚗 Heavy traffic and long commutes</li>
+            <li>📧 Spam emails and unnecessary meetings</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
