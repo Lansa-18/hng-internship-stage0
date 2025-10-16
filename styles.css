@@ -254,6 +254,10 @@ main {
   gap: 0.5rem;
 }
 
+.hobbies-list li:hover {
+  border: 1px solid #667eea;
+}
+
 .dislikes-list li:hover {
   border: 1px solid #e53e3e;
 }
