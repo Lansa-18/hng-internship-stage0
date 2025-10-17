@@ -13,7 +13,6 @@ This project is a fully responsive profile card component that meets all the req
 - **Modern Aesthetic**: Clean, professional design with gradient backgrounds and subtle animations
 - **Fully Responsive**: Optimized for mobile, tablet, and desktop viewports
 - **CSS Grid & Flexbox**: Modern layout techniques for optimal responsiveness
-- **Smooth Animations**: Subtle hover effects and transitions (respects `prefers-reduced-motion`)
 - **Beautiful Typography**: Carefully selected fonts and spacing for optimal readability
 
 ### ♿ Accessibility
@@ -21,8 +20,7 @@ This project is a fully responsive profile card component that meets all the req
 - **Semantic HTML**: Proper use of `<article>`, `<section>`, `<nav>`, `<figure>`, and other semantic elements
 - **Keyboard Navigation**: Full keyboard accessibility with visible focus indicators
 - **Screen Reader Support**: Comprehensive ARIA labels and semantic structure
-- **High Contrast Support**: Enhanced styles for users with contrast preferences
-- **Alt Text**: Descriptive alternative text for images
+  - **Alt Text**: Descriptive alternative text for images
 
 ### 🔧 Functionality
 
@@ -35,7 +33,6 @@ This project is a fully responsive profile card component that meets all the req
 
 - **Mobile-first Approach**: Optimized for mobile devices first
 - **Flexible Grid Layouts**: Content adapts seamlessly across screen sizes
-- **Optimal Typography**: Font sizes and spacing adjust for different viewports
 - **Touch-friendly**: Interactive elements sized appropriately for touch interfaces
 
 ## 🎯 Required Elements & Data Test IDs
