@@ -20,7 +20,7 @@ This project is a fully responsive profile card component that meets all the req
 - **Semantic HTML**: Proper use of `<article>`, `<section>`, `<nav>`, `<figure>`, and other semantic elements
 - **Keyboard Navigation**: Full keyboard accessibility with visible focus indicators
 - **Screen Reader Support**: Comprehensive ARIA labels and semantic structure
-  - **Alt Text**: Descriptive alternative text for images
+- **Alt Text**: Descriptive alternative text for images
 
 ### 🔧 Functionality
 
