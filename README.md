@@ -207,4 +207,4 @@ This is a learning project for HNG Internship, but suggestions and improvements 
 
 ---
 
-**Built for HNG Internship Stage 0 && Stage 1**
+**Built for HNG Internship Stage 0 & Stage 1**
