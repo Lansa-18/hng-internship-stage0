@@ -28,6 +28,8 @@ This project is a fully responsive profile card component that meets all the req
 - **Copy Feature**: Click/keyboard-activate the timestamp to copy it to clipboard
 - **Error Handling**: Graceful fallback for avatar image loading failures
 - **Cross-browser Support**: Works on modern browsers with appropriate fallbacks
+- **Form Validation**: Real-time form validation with accessible error messages
+- **Multi-page Navigation**: Easy navigation between Profile, About, and Contact pages
 
 ### 📱 Responsive Design
 
@@ -37,7 +39,9 @@ This project is a fully responsive profile card component that meets all the req
 
 ## 🎯 Required Elements & Data Test IDs
 
-All required elements are implemented with the exact `data-testid` attributes specified:
+The project implements all required elements with exact `data-testid` attributes as specified:
+
+### Profile Page Elements
 
 | Element                 | Data Test ID                 | Implementation                               |
 | ----------------------- | ---------------------------- | -------------------------------------------- |
@@ -50,6 +54,29 @@ All required elements are implemented with the exact `data-testid` attributes sp
 | Individual social links | `test-user-social-<network>` | Twitter, LinkedIn, GitHub with specific IDs  |
 | Hobbies list            | `test-user-hobbies`          | `<ul>` with hobby items                      |
 | Dislikes list           | `test-user-dislikes`         | `<ul>` with dislike items                    |
+
+### Contact Form Elements
+
+| Element          | Data Test ID                 | Implementation                              |
+| ---------------- | ---------------------------- | ------------------------------------------- |
+| Full Name Input  | `test-contact-name`          | Required text input with validation         |
+| Email Input      | `test-contact-email`         | Required email input with format validation |
+| Subject Input    | `test-contact-subject`       | Required text input                         |
+| Message Textarea | `test-contact-message`       | Required textarea, minimum 10 characters    |
+| Submit Button    | `test-contact-submit`        | Form submission button                      |
+| Error Messages   | `test-contact-error-<field>` | Field-specific error messages               |
+| Success Message  | `test-contact-success`       | Form submission success message             |
+
+### About Page Elements
+
+| Element             | Data Test ID             | Implementation                         |
+| ------------------- | ------------------------ | -------------------------------------- |
+| Page Container      | `test-about-page`        | Main container with semantic structure |
+| Bio Section         | `test-about-bio`         | Personal biography and background      |
+| Goals Section       | `test-about-goals`       | Program goals and aspirations          |
+| Confidence Section  | `test-about-confidence`  | Areas for improvement                  |
+| Future Note Section | `test-about-future-note` | Message to future self                 |
+| Extra Section       | `test-about-extra`       | Additional thoughts and reflections    |
 
 ## 🚀 Getting Started
 
@@ -83,10 +110,15 @@ Then open `http://localhost:8000` in your browser.
 
 ```
 stage1/
-├── index.html          # Main HTML file with semantic structure
-├── styles.css          # Comprehensive CSS with responsive design
-├── script.js           # JavaScript for interactivity and time updates
-└── README.md           # This documentation file
+├── index.html          # Main profile page with semantic structure
+├── about.html         # About Me page with reflective content
+├── contact.html       # Contact form page with validation
+├── styles.css         # Base CSS with responsive design
+├── about.css         # Styles for About page
+├── contact.css       # Styles for Contact form
+├── script.js         # Profile page interactivity and time updates
+├── contact.js        # Contact form validation and submission
+└── README.md         # This documentation file
 ```
 
 ## 🛠️ Technical Implementation
@@ -105,6 +137,8 @@ stage1/
 - **Media Queries**: Responsive breakpoints for mobile, tablet, desktop
 - **Animation**: Smooth transitions and hover effects
 - **Accessibility**: Focus styles, high contrast support, reduced motion support
+- **Form Validation Styles**: Visual feedback for form validation states
+- **Modular CSS**: Separate stylesheets for better organization
 
 ### JavaScript Functionality
 
@@ -112,6 +146,9 @@ stage1/
 - **Error Handling**: Graceful fallbacks for image loading and clipboard operations
 - **Accessibility**: Enhanced keyboard navigation and ARIA labels
 - **Performance**: Efficient event handling and DOM manipulation
+- **Form Validation**: Real-time validation with accessibility features
+- **Success Feedback**: Visual confirmation of successful form submission
+- **Error Management**: Clear error messages with ARIA announcements
 
 ## 📋 Browser Compatibility
 
@@ -170,4 +207,4 @@ This is a learning project for HNG Internship, but suggestions and improvements 
 
 ---
 
-**Built for HNG Internship Stage 0**
+**Built for HNG Internship Stage 0 && Stage 1**
